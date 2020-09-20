@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Barlow', sans-serif;
+}
+
+.main{
+    position: relative;
+    width: 960px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #252B43;   
+    background-color: #1D2029;
+    padding: 30px;
+}
+
+.grey{
+    color: #69729c;
+}
+
+.white{
+    color: #FEFEFF;
+}
+
+.green{
+    color: rgb(47, 157, 140);
+}
+
+.red{
+    color: rgb(162, 83, 101);
+}
+
+.header, .dashboard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social{
+    box-sizing: border-box;
+    max-height: 175px;
+    min-width: 205px;
+    margin-top: 30px;
+    background-color: #252B43;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 35px;
+    font-size: 12px;
+}
+
+.social-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.social-title p{
+    margin-left: 10px;
+}
+
+.followers h2{
+    font-size: 40px;
+}
+
+.follow{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
+
+.social-footer{
+    margin-top: 15px;
+}
+
+.subtitle{
+    margin: 20px 0;
+}
+
+.overview{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.overview-box{
+    width: 205px;
+    padding: 20px 15px;
+    background-color: #252B43;
+    margin-bottom: 25px;
+}
+
+.overview-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview-box img{
+    width: 18px;
+}
+
+.overview-box .number{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.mt{
+    margin-top: 20px;
+}
